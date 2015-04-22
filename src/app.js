@@ -4,7 +4,7 @@ app.config(function($routeProvider, $locationProvider) {
 	$routeProvider.when("/", {
 		templateUrl: "templates/home.html",
 		controller: "homeController",
-		title: 'testing'
+		css: 'templates/styles/home.css'
 	});
 
 	$locationProvider.html5Mode({ 	// Removes the hashbang from the url
